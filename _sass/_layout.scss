@@ -1,0 +1,144 @@
+/**
+ * Site header
+ */
+ p {
+   margin: 0;
+ }
+ header{
+   width: 100%;
+   margin: 50px auto;
+ }
+ .site_title{
+  font-size: 42px;
+  font-weight: bold;
+  vertical-align: middle;
+  display: inline-block;
+}
+.menu{
+  text-align: right;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+}
+ .menu a{
+   display: inline-block;
+   margin: 0 5px;
+   padding: 10px 15px;
+ }
+ .menu a.active{
+   border: dashed 1px $brand-color;
+   border-radius: 3px;
+ }
+ .translate{
+   width: $content-width;
+   margin: 20 auto;
+ }
+
+
+
+/**
+ * Site footer
+ */
+
+ footer{
+   position: relative;
+ }
+ footer span{
+   color: #666666;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: right;
+   margin: 30px 0;
+ }
+
+
+/**
+ * Page content
+ */
+
+
+
+
+/**
+ * Posts
+ */
+ .project_bg{
+   position: relative;
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+ }
+ .project_bg img{
+   width: 100%;
+ }
+ .content{
+   position: relative;
+   border: solid 2px #dbdbdb;
+   border-radius: 3px;
+   box-shadow: 0 1px 10px #d4d4d4;
+ }
+ .project_content {
+   padding: 20px 0;
+   margin: 0 20px;
+   font-size: 16px;
+ }
+ .project_title{
+   padding: 15px 20px;
+   background: #fff;
+   font-size: 26px;
+   border-radius: 2px;
+   position: absolute;
+   margin: -50px 0 0 20px;
+   font-weight: 600;
+ }
+ .post{
+   width: 90%;
+   margin: 10px auto;
+ }
+ .post a{
+   font-size: 18px;
+   color: #282828;
+   font-weight: 600;
+ }
+ .post p{
+   font-size: 16px;
+   color: #282828;
+ }
+ .post span {
+   text-align: right;
+ }
+
+ /**
+  * Team
+  */
+.team {
+  width: 100%;
+}
+.worker{
+  width: 220px;
+  height: 250px;
+  display: inline-block;
+  margin: 10px 6px 10px 10px;
+  position: relative;
+  color: #fff;
+}
+.worker img{
+  background: url("../img/pic/bg.jpg");
+  width: 220px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.worker .info span{
+  background: rgba(24, 24, 24, 0.15);
+  margin: 2px;
+  padding: 2px 5px;
+  float: right;
+}

@@ -1,0 +1,11 @@
+# Menu
+- title: Эхлэл
+  href: "/"
+- title: Үйл явц
+  href: "/posts/"
+- title: Төсөл
+  href: "/project/"
+- title: Баг
+  href: "/team/"
+- title: Холбоо барих
+  href: "/contact/"

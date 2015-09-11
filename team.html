@@ -1,0 +1,19 @@
+---
+layout: page
+title: Хамт олон
+permalink: /team/
+---
+<div class="team" align="center">
+  {% for worker in site.data.workers %}
+    <div class="worker">
+      <img src="{{ worker.pic_url }}" alt="" />
+      <div class="info">
+        <span>{{ worker.name }}</span>
+        <br>
+        <span>{{ worker.role }}</span>
+        <br>
+        <span>{{ worker.mail }}</span>
+      </div>
+    </div>
+  {% endfor %}
+</div>

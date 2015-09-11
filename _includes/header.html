@@ -1,0 +1,9 @@
+    <div class="translate"></div>
+    <header class="wrapper">
+      <a href="{{ site.baseurl }}/" class="site_title">{{ site.title }}</a>
+      <div class="menu">
+        {% for menu in site.data.nav %}
+          <a href="{{ site.baseurl }}{{ menu.href }}">{{ menu.title }}</a>
+        {% endfor %}
+      </div>
+    </header>
