@@ -6,7 +6,7 @@ permalink: /team/
 <div class="team" align="center">
   {% for worker in site.data.workers %}
     <div class="worker">
-      <img src="{{ worker.pic_url }}" alt="" />
+      <img src="{{ worker.pic_url | prepend: site.baseurl }}" alt="" />
       <div class="info">
         <span>{{ worker.name }}</span>
         <br>
